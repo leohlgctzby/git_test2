@@ -1,3 +1,55 @@
-h1{
-    color: red;
+.padding{
+    padding: 20px;
+}
+
+.padding-lg{
+  padding: 45px;
+}
+
+h1 {
+  color: red;
+}
+
+section > .container {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+  /* background-color: rgb(204, 20, 20); */
+}
+
+section > .container .photocard-header {
+  background: #29c374;
+  margin-bottom: 40px
+}
+section > .container .photocard-header .profile-card__name{
+  color: white;
+}
+
+section > .container .photocard-header .profile-card__position{
+  color: white;
+}
+section > .container .photocard-header .photocard-wrapper{
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    border: solid 3px white;
+    transition: all 0.3s ease-in-out;
+}
+
+section > .container .photocard-header .photocard-wrapper:hover {
+  -webkit-transform: translateY(-9px);
+  -ms-transform: translateY(-9px);
+  -o-transform: translateY(-9px);
+  transform: translateY(-9px);
+  -webkit-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+}
+section > .container .photocard-header .photocard-wrapper img{
+    width: 100%;
+    height: auto;
+    
+   
 }
